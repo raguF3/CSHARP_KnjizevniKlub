@@ -1,0 +1,6 @@
+@CSHARP_KnjizevniKlub_HostAddress = http://localhost:5276
+
+GET {{CSHARP_KnjizevniKlub_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
