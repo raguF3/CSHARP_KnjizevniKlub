@@ -1,6 +1,10 @@
 ﻿namespace CSHARP_KnjizevniKlub.Models.DTO
 {
-    public class DolazakDtoRead
+    public record DolazakDTORead
     {
+
+        int sastanak;
+        int? clan;
+
     }
 }

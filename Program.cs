@@ -3,7 +3,6 @@ using CSHARP_KnjizevniKlub.Mapping;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -51,4 +50,9 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.UseStaticFiles();
+app.UseDefaultFiles();
+app.MapFallbackToFile("index.html");
+
+app.UseCors("CorsPolicy");
 app.Run();

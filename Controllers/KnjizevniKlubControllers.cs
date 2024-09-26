@@ -1,4 +1,5 @@
-﻿using CSHARP_KnjizevniKlub.Data;
+﻿using AutoMapper;
+using CSHARP_KnjizevniKlub.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CSHARP_KnjizevniKlub.Controllers
@@ -10,11 +11,12 @@ namespace CSHARP_KnjizevniKlub.Controllers
 
 
             protected readonly KnjizevniKlubContext _context;
+            protected readonly IMapper _mapper;
 
-
-            public KnjizevniKlubController(KnjizevniKlubContext context)
+            public KnjizevniKlubController(KnjizevniKlubContext context, IMapper mapper)
             {
                 _context = context;
+                _mapper = mapper;
             }
         }
     }
