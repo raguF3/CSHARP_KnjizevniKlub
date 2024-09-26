@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<KnjizevniKlubContext>(
     opcije =>
     {
-        opcije.UseSqlServer(builder.Configuration.GetConnectionString("EdunovaContext"));
+        opcije.UseSqlServer(builder.Configuration.GetConnectionString("KnjizevniKlubContext"));
     }
     );
 
