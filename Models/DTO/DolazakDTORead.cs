@@ -3,8 +3,8 @@
     public record DolazakDTORead
     {
 
-        int sastanak;
-        int? clan;
+       public int? sastanak { get; set; }
+       public int? clan {  get; set; }
 
     }
 }

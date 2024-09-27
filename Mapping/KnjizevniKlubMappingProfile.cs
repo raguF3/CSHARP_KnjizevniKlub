@@ -15,6 +15,7 @@ namespace CSHARP_KnjizevniKlub.Mapping
 
             CreateMap<List<Dolazak>, List<DolazakDTORead>>();
 
+             
         }
     }
 }
