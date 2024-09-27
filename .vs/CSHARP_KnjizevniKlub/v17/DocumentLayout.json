@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\models\\dto\\dolazakdtoread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:models\\dto\\dolazakdtoread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\models\\dto\\dolazakdtoinsertupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:models\\dto\\dolazakdtoinsertupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\csharp_knjizevniklub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:csharp_knjizevniklub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\controllers\\dolazakcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:controllers\\dolazakcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\mapping\\knjizevniklubmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:mapping\\knjizevniklubmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\models\\dto\\dolazakdtoread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:models\\dto\\dolazakdtoread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\models\\entitet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,18 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\data\\knjizevniklubcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:data\\knjizevniklubcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\csharp_knjizevniklub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:csharp_knjizevniklub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 192,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,46 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DolazakControllers.cs",
-              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Controllers\\DolazakControllers.cs",
-              "RelativeDocumentMoniker": "Controllers\\DolazakControllers.cs",
-              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Controllers\\DolazakControllers.cs",
-              "RelativeToolTip": "Controllers\\DolazakControllers.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAcwF8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:01:45.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "KnjizevniKlubMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Mapping\\KnjizevniKlubMappingProfile.cs",
-              "RelativeDocumentMoniker": "Mapping\\KnjizevniKlubMappingProfile.cs",
-              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Mapping\\KnjizevniKlubMappingProfile.cs",
-              "RelativeToolTip": "Mapping\\KnjizevniKlubMappingProfile.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Title": "DolazakDTOInsertUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\DTO\\DolazakDTOInsertUpdate.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\DolazakDTOInsertUpdate.cs",
+              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\DTO\\DolazakDTOInsertUpdate.cs",
+              "RelativeToolTip": "Models\\DTO\\DolazakDTOInsertUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T10:55:24.857Z",
+              "WhenOpened": "2024-09-27T11:47:48.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DolazakDTORead.cs",
-              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\DTO\\DolazakDTORead.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\DolazakDTORead.cs",
-              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\DTO\\DolazakDTORead.cs",
-              "RelativeToolTip": "Models\\DTO\\DolazakDTORead.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T10:51:11.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Entitet.cs",
               "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\Entitet.cs",
               "RelativeDocumentMoniker": "Models\\Entitet.cs",
@@ -106,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "CSHARP_KnjizevniKlub",
               "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\CSHARP_KnjizevniKlub.csproj",
               "RelativeDocumentMoniker": "CSHARP_KnjizevniKlub.csproj",
@@ -119,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -132,7 +110,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DolazakDTORead.cs",
+              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\DTO\\DolazakDTORead.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\DolazakDTORead.cs",
+              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\DTO\\DolazakDTORead.cs*",
+              "RelativeToolTip": "Models\\DTO\\DolazakDTORead.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:51:11.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "DolazakControllers.cs",
+              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Controllers\\DolazakControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\DolazakControllers.cs",
+              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Controllers\\DolazakControllers.cs",
+              "RelativeToolTip": "Controllers\\DolazakControllers.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAcwF8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:01:45.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-27T10:27:18.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KnjizevniKlubMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Mapping\\KnjizevniKlubMappingProfile.cs",
+              "RelativeDocumentMoniker": "Mapping\\KnjizevniKlubMappingProfile.cs",
+              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Mapping\\KnjizevniKlubMappingProfile.cs",
+              "RelativeToolTip": "Mapping\\KnjizevniKlubMappingProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:55:24.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "KnjizevniKlubContext.cs",
               "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Data\\KnjizevniKlubContext.cs",
               "RelativeDocumentMoniker": "Data\\KnjizevniKlubContext.cs",
@@ -146,19 +176,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-27T10:27:18.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

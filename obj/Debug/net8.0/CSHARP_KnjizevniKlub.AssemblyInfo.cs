@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSHARP_KnjizevniKlub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b8744df27d103b80d9bcc2ada6ca43ef599cf91")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a59b7eca02f254916b54d3712c0b66497434822")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSHARP_KnjizevniKlub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSHARP_KnjizevniKlub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
