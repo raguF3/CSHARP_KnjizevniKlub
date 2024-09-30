@@ -1,10 +1,11 @@
-﻿use master;
-go
-drop database if exists KnjizevniKlub;
-go
-create database KnjizevniKlub;
-go
-use KnjizevniKlub;
+﻿
+drop table knjige;
+drop table sastanci;
+drop table clanovi;
+drop table dolasci;  
+
+
+
 
 create table knjige (
 sifra int not null primary key identity (1,1),
@@ -93,8 +94,7 @@ insert into knjige (naziv, autor, godina) values
 ('God of War','Rina Kent','2024-06-13');
 insert into knjige (naziv, autor, godina) values
 ('Vicious','Lj Shen','2016-12-27');
-insert into knjige (naziv, autor, godina) values
-('The Office Rival','Kat T. Masen','2015-09-25');
+
 
 
 
