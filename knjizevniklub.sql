@@ -1,4 +1,19 @@
 ﻿
+SELECT name, collation_name FROM sys.databases;
+GO
+ALTER DATABASE db_a98acf_wp4 SET SINGLE_USER WITH
+ROLLBACK IMMEDIATE;
+GO
+ALTER DATABASE db_a98acf_wp4 COLLATE Croatian_CI_AS;
+GO
+ALTER DATABASE db_a98acf_wp4 SET MULTI_USER;
+GO
+SELECT name, collation_name FROM sys.databases;
+GO
+
+
+
+
 drop table knjige;
 drop table sastanci;
 drop table clanovi;
