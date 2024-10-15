@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yPA496AGCD8=",
+  "dgSpecHash": "eO4dGY2QS1A=",
   "success": true,
   "projectFilePath": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\CSHARP_KnjizevniKlub.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raguz\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\raguz\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\raguz\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\raguz\\.nuget\\packages\\fluentassertions\\6.12.1\\fluentassertions.6.12.1.nupkg.sha512",
     "C:\\Users\\raguz\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\raguz\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\raguz\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",
