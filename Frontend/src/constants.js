@@ -1,5 +1,5 @@
-export const RoutsNames = {
+export const RoutesNames = {
 
     HOME: '/',
-    SMJER_PREGLED: '/smjerovi'
+    DOLAZAK_PREGLED: '/dolasci'
 }
