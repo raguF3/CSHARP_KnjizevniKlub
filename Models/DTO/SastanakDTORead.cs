@@ -1,6 +1,8 @@
-﻿namespace CSHARP_KnjizevniKlub.Models.DTO
+﻿
+
+namespace CSHARP_KnjizevniKlub.Models.DTO
 {
-    public class SastanakDTORead
+    public record SastanakDTORead
     (
        int? sifra,
        DateTime? datum,

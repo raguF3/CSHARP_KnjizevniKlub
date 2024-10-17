@@ -1,6 +1,6 @@
 ﻿namespace CSHARP_KnjizevniKlub.Models.DTO
 {
-    public class ClanDTORead
+    public record ClanDTORead
     (
     int? sifra,
     string? ime,
