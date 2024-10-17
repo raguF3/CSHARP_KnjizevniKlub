@@ -1,8 +1,10 @@
-﻿namespace CSHARP_KnjizevniKlub.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CSHARP_KnjizevniKlub.Models
 {
     public class Clan: Entitet
     {
-
+        [Key]
         public int? sifra {  get; set; }
         public string? ime { get; set; }
         public string? prezime { get; set; }

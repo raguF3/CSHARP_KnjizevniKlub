@@ -8,10 +8,21 @@ namespace CSHARP_KnjizevniKlub.Mapping
     {
         public KnjizevniKlubMappingProfile()
         {
-            CreateMap<Dolazak, DolazakDTORead>();
-            CreateMap<DolazakDTOInsertUpdate, Dolazak>();
+            CreateMap<Dolasci, DolazakDTORead>();
+            CreateMap<DolazakDTORead, Dolasci>();
+            CreateMap<DolazakDTOInsertUpdate, Dolasci>();
 
+            CreateMap<Clanovi, ClanDTORead>();
+            CreateMap<ClanDTORead, Clanovi>();
+            CreateMap<ClanDTOInsertUpdate, Clanovi>();
 
+            CreateMap<Sastanci, SastanakDTORead>();
+            CreateMap<SastanakDTORead, Sastanci>();
+            CreateMap<SastanakDTOInsertUpdate, Sastanci>();
+
+            CreateMap<Knjige, KnjigaDTORead>();
+            CreateMap<KnjigaDTORead, Knjige>();
+            CreateMap<KnjigaDTOInsertUpdate, Knjige>();
         }
     }
 }
