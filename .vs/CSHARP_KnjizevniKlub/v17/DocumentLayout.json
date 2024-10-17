@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\controllers\\clancontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:controllers\\clancontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\controllers\\knjigacontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:controllers\\knjigacontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\controllers\\sastanakcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:controllers\\sastanakcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,47 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 192,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClanControllers.cs",
-              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Controllers\\ClanControllers.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClanControllers.cs",
-              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Controllers\\ClanControllers.cs",
-              "RelativeToolTip": "Controllers\\ClanControllers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T19:20:01.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KnjigaControllers.cs",
-              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Controllers\\KnjigaControllers.cs",
-              "RelativeDocumentMoniker": "Controllers\\KnjigaControllers.cs",
-              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Controllers\\KnjigaControllers.cs",
-              "RelativeToolTip": "Controllers\\KnjigaControllers.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAAAJwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T18:56:04.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SastanakControllers.cs",
-              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Controllers\\SastanakControllers.cs",
-              "RelativeDocumentMoniker": "Controllers\\SastanakControllers.cs",
-              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Controllers\\SastanakControllers.cs",
-              "RelativeToolTip": "Controllers\\SastanakControllers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T18:46:13.29Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
