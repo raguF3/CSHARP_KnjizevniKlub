@@ -42,7 +42,7 @@ sifra int not null primary key identity (1,1),
 ime varchar (50) not null,
 prezime varchar (50) not null,
 email varchar (50) not null,
-lozinka int (8) not null,
+lozinka int not null,
 administrator bit
 );
 

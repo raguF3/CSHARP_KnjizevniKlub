@@ -8,4 +8,4 @@ export const RoutesNames = {
 
 };
 
-export const BACKEND_URL = 'https://raguf3-001-site1.ktempurl.com/api/v1'
+export const BACKEND_URL = 'https://localhost:7064/api/v1'
