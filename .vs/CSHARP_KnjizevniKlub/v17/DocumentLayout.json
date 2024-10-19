@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\models\\sastanak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:models\\sastanak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\models\\knjiga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:models\\knjiga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\models\\dolazak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:models\\dolazak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\models\\clan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:models\\clan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 192,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,58 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Clan.cs",
-              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\Clan.cs",
-              "RelativeDocumentMoniker": "Models\\Clan.cs",
-              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\Clan.cs",
-              "RelativeToolTip": "Models\\Clan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T10:52:53.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dolazak.cs",
-              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\Dolazak.cs",
-              "RelativeDocumentMoniker": "Models\\Dolazak.cs",
-              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\Dolazak.cs",
-              "RelativeToolTip": "Models\\Dolazak.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T10:52:46.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Knjiga.cs",
-              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\Knjiga.cs",
-              "RelativeDocumentMoniker": "Models\\Knjiga.cs",
-              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\Knjiga.cs",
-              "RelativeToolTip": "Models\\Knjiga.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T10:52:41.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Sastanak.cs",
-              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\Sastanak.cs",
-              "RelativeDocumentMoniker": "Models\\Sastanak.cs",
-              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\Sastanak.cs",
-              "RelativeToolTip": "Models\\Sastanak.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T10:52:35.491Z",
-              "EditorCaption": ""
             }
           ]
         }
