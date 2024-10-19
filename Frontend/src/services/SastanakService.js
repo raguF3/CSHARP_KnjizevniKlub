@@ -54,4 +54,10 @@ const SastanakService = {
     }
 };
 
-export default SastanakService;
+export default {
+    getSastanci,
+    getSastanakBySifra,
+    dodajSastanak,
+    promijeniSastanak,
+    obrisiSastanak
+};
