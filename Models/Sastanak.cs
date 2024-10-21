@@ -8,5 +8,6 @@ namespace CSHARP_KnjizevniKlub.Models
         public int? knjiga { get; set; }
         public string? mjesto { get; set; }
         public DateTime? datum { get; set; }
+        public object KnjigaSifra { get; internal set; }
     }
 }
