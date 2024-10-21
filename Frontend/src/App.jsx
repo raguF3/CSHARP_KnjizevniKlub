@@ -9,6 +9,7 @@ import SastanciPregled from './pages/Sastanci/SastanciPregled.jsx'
 import ClanoviPregled from './pages/Clanovi/ClanoviPregled.jsx'
 import KnjigePregled from './pages/Knjige/KnjigePregled.jsx'
 import Login from "./pages/Login"
+import NadzornaPloca from './pages/NadzornaPloca';
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
         <Route path={RoutesNames.SASTANAK_PREGLED} element ={<SastanciPregled />} />
         <Route path={RoutesNames.CLAN_PREGLED} element={<ClanoviPregled />} />
         <Route path={RoutesNames.KNJIGA_PREGLED} element ={<KnjigePregled />} />
-        
+        <Route path={RoutesNames.NADZORNA_PLOCA} element={<NadzornaPloca />} />
 
 
       </Routes>

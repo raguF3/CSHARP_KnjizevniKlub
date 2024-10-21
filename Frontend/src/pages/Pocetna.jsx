@@ -18,7 +18,7 @@ export default function Pocetna() {
                             <Card.Text>
                                 Broj članova: 27 <br />
                                 Broj knjiga: 27 <br />
-                                Nadolazeći sastanci: 3
+                                Nadolazeći sastanci: 2
                             </Card.Text>
                         </Card.Body>
                     </Card>
