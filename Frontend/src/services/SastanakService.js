@@ -1,7 +1,6 @@
 import HttpService from '../services/HttpService';
 
 
-
 const SastanakService = {
     async getSastanci() {
         try {
@@ -54,10 +53,4 @@ const SastanakService = {
     }
 };
 
-export default {
-    getSastanci,
-    getSastanakBySifra,
-    dodajSastanak,
-    promijeniSastanak,
-    obrisiSastanak
-};
+export default SastanakService;

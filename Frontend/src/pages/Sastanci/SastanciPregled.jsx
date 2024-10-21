@@ -26,7 +26,7 @@ export default function SastanciPregled() {
                     <tr>
                         <th>Šifra</th>
                         <th>Knjiga</th>
-                        <th>Mesto</th>
+                        <th>Mjesto</th>
                         <th>Datum</th>
                     </tr>
                 </thead>
@@ -35,7 +35,7 @@ export default function SastanciPregled() {
                         <tr key={index}>
                             <td>{sastanak.sifra}</td>
                             <td>{sastanak.knjiga}</td> 
-                            <td>{sastanak.mesto}</td>
+                            <td>{sastanak.mjesto}</td>
                             <td>{sastanak.datum}</td>
                         </tr>
                     ))}
