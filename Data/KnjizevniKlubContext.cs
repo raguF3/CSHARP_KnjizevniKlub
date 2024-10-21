@@ -15,18 +15,18 @@ namespace CSHARP_KnjizevniKlub.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Implementacija veze 1:n između Clan i Dolazak
+           
             modelBuilder.Entity<Dolazak>()
-                .Property(d => d.Clanovi) // Ovdje možete definirati stranučkog ključa
+                .Property(d => d.Clanovi) 
                 .IsRequired();
 
             modelBuilder.Entity<Dolazak>()
-                .Property(d => d.Sastanak) // Ovdje možete definirati stranučkog ključa
+                .Property(d => d.Sastanak) 
                 .IsRequired();
 
-            // Implementacija veze 1:n između Sastanak i Dolazak
+            
             modelBuilder.Entity<Sastanak>()
-                .Property(s => s.KnjigaSifra) // Ovdje možete definirati stranučkog ključa
+                .Property(s => s.KnjigaSifra)
                 .IsRequired();
         }
     }
