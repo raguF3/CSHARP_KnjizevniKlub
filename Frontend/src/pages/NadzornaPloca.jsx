@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import Highcharts from 'highcharts';
 import PieChart from 'highcharts-react-official';
-import ClanService from '../services/ClanService'; // Servis za članove
-import KnjigaService from '../services/KnjigaService'; // Servis za knjige
-import SastanakService from '../services/SastanakService'; // Servis za sastanke
-import DolazakService from '../services/DolazakService'; // Servis za dolaske
+import ClanService from '../services/ClanService'; 
+import KnjigaService from '../services/KnjigaService'; 
+import SastanakService from '../services/SastanakService';
+import DolazakService from '../services/DolazakService';
 import useLoading from '../hooks/useLoading';
 
 export default function NadzornaPloca() {

@@ -23,7 +23,11 @@ namespace CSHARP_KnjizevniKlub.Controllers
             }
             try
             {
-                return Ok(_mapper.Map<List<ClanDTORead>>(_context.Clanovi));
+
+                var lista = _context.Clanovi;
+
+
+                return Ok(_mapper.Map<List<ClanDTORead>>(lista));
             }
             catch (Exception ex)
             {

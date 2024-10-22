@@ -14,10 +14,10 @@ GO
 
 
 
-drop table knjige;
-drop table sastanci;
-drop table clanovi;
-drop table dolasci;  
+--drop table knjige;
+--drop table sastanci;
+--drop table clanovi;
+--drop table dolasci;  
 
 
 
@@ -42,7 +42,7 @@ sifra int not null primary key identity (1,1),
 ime varchar (50) not null,
 prezime varchar (50) not null,
 email varchar (50) not null,
-lozinka int (8) not null,
+lozinka int not null,
 administrator bit
 );
 
@@ -258,7 +258,7 @@ insert into dolasci (sastanak, clan) values
 (27,1), (27,4),(27,5),(27,6),(27,7),(27,12),(27,13),(27,14),(27,15),(27,19),(27,20),(27,22),(27,23);
 
 
-select * from knjige;
-select * from sastanci;
-select * from clanovi;
-select * from dolasci;
+--select * from knjige;
+--select * from sastanci;
+--select * from clanovi;
+--select * from dolasci;

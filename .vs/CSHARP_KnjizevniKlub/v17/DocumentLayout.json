@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\CSHARP_KnjizevniKlub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\knjizevniklub.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:knjizevniklub.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\admin\\source\\repos\\csharp_knjizevniklub\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\models\\sastanak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:models\\sastanak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\admin\\source\\repos\\csharp_knjizevniklub\\data\\knjizevniklubcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:data\\knjizevniklubcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\raguz\\onedrive\\dokumenti\\github\\csharp_knjizevniklub\\knjizevniklub.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:knjizevniklub.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|c:\\users\\admin\\source\\repos\\csharp_knjizevniklub\\models\\dolazak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48EBC25-5D5A-411D-B95B-A3FF8F214778}|CSHARP_KnjizevniKlub.csproj|solutionrelative:models\\dolazak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,26 +39,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "knjizevniklub.sql ",
-              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\knjizevniklub.sql",
-              "RelativeDocumentMoniker": "knjizevniklub.sql",
-              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\knjizevniklub.sql",
-              "RelativeToolTip": "knjizevniklub.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-18T13:34:11.612Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CSHARP_KnjizevniKlub\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CSHARP_KnjizevniKlub\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-22T15:07:57.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Sastanak.cs",
-              "DocumentMoniker": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\Sastanak.cs",
-              "RelativeDocumentMoniker": "Models\\Sastanak.cs",
-              "ToolTip": "C:\\Users\\raguz\\OneDrive\\Dokumenti\\GitHub\\CSHARP_KnjizevniKlub\\Models\\Sastanak.cs",
-              "RelativeToolTip": "Models\\Sastanak.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Dolazak.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CSHARP_KnjizevniKlub\\Models\\Dolazak.cs",
+              "RelativeDocumentMoniker": "Models\\Dolazak.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CSHARP_KnjizevniKlub\\Models\\Dolazak.cs",
+              "RelativeToolTip": "Models\\Dolazak.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T10:17:50.224Z"
+              "WhenOpened": "2024-10-21T18:49:29.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KnjizevniKlubContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CSHARP_KnjizevniKlub\\Data\\KnjizevniKlubContext.cs",
+              "RelativeDocumentMoniker": "Data\\KnjizevniKlubContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CSHARP_KnjizevniKlub\\Data\\KnjizevniKlubContext.cs",
+              "RelativeToolTip": "Data\\KnjizevniKlubContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:40:29.058Z",
+              "EditorCaption": ""
             }
           ]
         }

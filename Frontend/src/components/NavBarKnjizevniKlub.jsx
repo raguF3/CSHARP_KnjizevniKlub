@@ -18,12 +18,13 @@ export default function NavBarKnjizevniKlub() {
             <Nav.Link onClick={() => navigate(RoutesNames.HOME)}>Početna</Nav.Link>
             <Nav.Link href="https://raguf3-001-site1.ktempurl.com/swagger/index.html" target='_blank'>Swagger</Nav.Link>
             <NavDropdown title="Sadržaj" id="basic-nav-dropdown">
+               
               <NavDropdown.Item onClick={() => navigate(RoutesNames.DOLAZAK_PREGLED)}>Dolasci</NavDropdown.Item>
               <NavDropdown.Item onClick={() => navigate(RoutesNames.CLANOVI_PREGLED)}>Članovi</NavDropdown.Item>
               <NavDropdown.Item onClick={() => navigate(RoutesNames.SASTANCI_PREGLED)}>Sastanci</NavDropdown.Item>
               <NavDropdown.Item onClick={() => navigate(RoutesNames.KNJIGE_PREGLED)}>Knjige</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+              <Nav.Link onClick={()=>navigate(RoutesNames.NADZORNA_PLOCA)}>Nadzorna ploča</Nav.Link>
             </NavDropdown>
           </Nav>
           <Nav>

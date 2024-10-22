@@ -1,7 +1,6 @@
 import HttpService from '../services/HttpService';
 
 
-
 const SastanakService = {
     async getSastanci() {
         try {
