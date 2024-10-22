@@ -1,10 +1,9 @@
-﻿using AutoMapper;
-using CSHARP_KnjizevniKlub.Data;
+﻿using CSHARP_KnjizevniKlub.Models.DTO;
 using CSHARP_KnjizevniKlub.Models;
-using CSHARP_KnjizevniKlub.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using static CSHARP_KnjizevniKlub.Controllers.KnjizevniKlubControllers;
+using static CSHARP_KnjizevniKlub.Controllers.KnjizevniKlubController;
+using CSHARP_KnjizevniKlub.Data;
+using AutoMapper;
 
 namespace CSHARP_KnjizevniKlub.Controllers
 {
@@ -13,10 +12,11 @@ namespace CSHARP_KnjizevniKlub.Controllers
     [Route("api/v1/[controller]")]
 
 
-    public class DolazakControllers(KnjizevniKlubContext context, IMapper mapper) : KnjizevniKlubController(context, mapper)
+    public class SastanakController(KnjizevniKlubContext context, IMapper mapper) : KnjizevniKlubController(context, mapper)
     {
+
         [HttpGet]
-        public ActionResult<List<DolazakDTORead>> Get()
+        public ActionResult<List<SastanakDTORead>> Get()
         {
             if (!ModelState.IsValid)
             {
@@ -24,7 +24,7 @@ namespace CSHARP_KnjizevniKlub.Controllers
             }
             try
             {
-                return Ok(_mapper.Map<List<DolazakDTORead>>(_context.Dolasci));
+                return Ok(_mapper.Map<List<SastanakDTORead>>(_context.Sastanci));
             }
             catch (Exception ex)
             {
@@ -35,16 +35,16 @@ namespace CSHARP_KnjizevniKlub.Controllers
 
         [HttpGet]
         [Route("{sifra:int}")]
-        public ActionResult<DolazakDTORead> GetBySifra(int sifra)
+        public ActionResult<SastanakDTORead> GetBySifra(int sifra)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(new { poruka = ModelState });
             }
-            Dolazak? e;
+            Sastanak? e;
             try
             {
-                e = _context.Dolasci.Find(sifra);
+                e = _context.Sastanci.Find(sifra);
             }
             catch (Exception ex)
             {
@@ -52,14 +52,14 @@ namespace CSHARP_KnjizevniKlub.Controllers
             }
             if (e == null)
             {
-                return NotFound(new { poruka = "Dolazak ne postoji u bazi" });
+                return NotFound(new { poruka = "Sastanak ne postoji u bazi" });
             }
 
-            return Ok(_mapper.Map<DolazakDTORead>(e));
+            return Ok(_mapper.Map<SastanakDTORead>(e));
         }
 
         [HttpPost]
-        public IActionResult Post(DolazakDTOInsertUpdate dto)
+        public IActionResult Post(SastanakDTOInsertUpdate dto)
         {
             if (!ModelState.IsValid)
             {
@@ -67,10 +67,10 @@ namespace CSHARP_KnjizevniKlub.Controllers
             }
             try
             {
-                var e = _mapper.Map<Dolazak>(dto);
-                _context.Dolasci.Add(e);
+                var e = _mapper.Map<Sastanak>(dto);
+                _context.Sastanci.Add(e);
                 _context.SaveChanges();
-                return StatusCode(StatusCodes.Status201Created, _mapper.Map<DolazakDTORead>(e));
+                return StatusCode(StatusCodes.Status201Created, _mapper.Map<SastanakDTORead>(e));
             }
             catch (Exception ex)
             {
@@ -84,7 +84,7 @@ namespace CSHARP_KnjizevniKlub.Controllers
         [HttpPut]
         [Route("{sifra:int}")]
         [Produces("application/json")]
-        public IActionResult Put(int sifra, DolazakDTOInsertUpdate dto)
+        public IActionResult Put(int sifra, SastanakDTOInsertUpdate dto)
         {
             if (!ModelState.IsValid)
             {
@@ -92,10 +92,10 @@ namespace CSHARP_KnjizevniKlub.Controllers
             }
             try
             {
-                Dolazak? e;
+                Sastanak? e;
                 try
                 {
-                    e = _context.Dolasci.Find(sifra);
+                    e = _context.Sastanci.Find(sifra);
                 }
                 catch (Exception ex)
                 {
@@ -103,12 +103,12 @@ namespace CSHARP_KnjizevniKlub.Controllers
                 }
                 if (e == null)
                 {
-                    return NotFound(new { poruka = "Dolazak ne postoji u bazi" });
+                    return NotFound(new { poruka = "Sastanak ne postoji u bazi" });
                 }
 
                 e = _mapper.Map(dto, e);
 
-                _context.Dolasci.Update(e);
+                _context.Sastanci.Update(e);
                 _context.SaveChanges();
 
                 return Ok(new { poruka = "Uspješno promjenjeno" });
@@ -131,10 +131,10 @@ namespace CSHARP_KnjizevniKlub.Controllers
             }
             try
             {
-                Dolazak? e;
+                Sastanak? e;
                 try
                 {
-                    e = _context.Dolasci.Find(sifra);
+                    e = _context.Sastanci.Find(sifra);
                 }
                 catch (Exception ex)
                 {
@@ -142,9 +142,9 @@ namespace CSHARP_KnjizevniKlub.Controllers
                 }
                 if (e == null)
                 {
-                    return NotFound("Dolazak ne postoji u bazi");
+                    return NotFound("Sastanak ne postoji u bazi");
                 }
-                _context.Dolasci.Remove(e);
+                _context.Sastanci.Remove(e);
                 _context.SaveChanges();
                 return Ok(new { poruka = "Uspješno obrisano" });
             }
@@ -155,3 +155,4 @@ namespace CSHARP_KnjizevniKlub.Controllers
         }
     }
 }
+
