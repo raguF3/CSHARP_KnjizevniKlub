@@ -1,7 +1,7 @@
 ﻿using CSHARP_KnjizevniKlub.Models.DTO;
 using CSHARP_KnjizevniKlub.Models;
 using Microsoft.AspNetCore.Mvc;
-using static CSHARP_KnjizevniKlub.Controllers.KnjizevniKlubControllers;
+using static CSHARP_KnjizevniKlub.Controllers.KnjizevniKlubController;
 using CSHARP_KnjizevniKlub.Data;
 using AutoMapper;
 
@@ -12,7 +12,7 @@ namespace CSHARP_KnjizevniKlub.Controllers
     [Route("api/v1/[controller]")]
 
 
-    public class SastanakControllers(KnjizevniKlubContext context, IMapper mapper) : KnjizevniKlubController(context, mapper)
+    public class SastanakController(KnjizevniKlubContext context, IMapper mapper) : KnjizevniKlubController(context, mapper)
     {
 
         [HttpGet]

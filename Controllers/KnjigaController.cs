@@ -4,7 +4,7 @@ using CSHARP_KnjizevniKlub.Models.DTO;
 using CSHARP_KnjizevniKlub.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using static CSHARP_KnjizevniKlub.Controllers.KnjizevniKlubControllers;
+using static CSHARP_KnjizevniKlub.Controllers.KnjizevniKlubController;
 
 namespace CSHARP_KnjizevniKlub.Controllers
 {
@@ -13,7 +13,7 @@ namespace CSHARP_KnjizevniKlub.Controllers
     [Route("api/v1/[controller]")]
 
 
-    public class KnjigaControllers(KnjizevniKlubContext context, IMapper mapper) : KnjizevniKlubController(context, mapper)
+    public class KnjigaController(KnjizevniKlubContext context, IMapper mapper) : KnjizevniKlubController(context, mapper)
     {
 
         [HttpGet]

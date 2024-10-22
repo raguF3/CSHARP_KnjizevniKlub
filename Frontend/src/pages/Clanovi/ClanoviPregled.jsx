@@ -3,25 +3,22 @@ import { useEffect, useState } from 'react';
 import ClanService from '../../services/ClanService'; 
 export default function ClanoviPregled() {
     const [clanovi, setClanovi] = useState([]); 
-    const [loading, setLoading] = useState(true); 
+
+    async function dohvatiClanove() {
+        const odgovor = await ClanService.get(); 
+        if (odgovor) {
+            setClanovi(odgovor); 
+        } else {
+            alert('Greška prilikom učitavanja članova: ' + odgovor.poruka);
+        }
+    }
+
 
     useEffect(() => {
-        async function dohvatiClanove() {
-            const odgovor = await ClanService.get(); 
-            if (odgovor && !odgovor.greska) {
-                setClanovi(odgovor.poruka); 
-            } else {
-                alert('Greška prilikom učitavanja članova: ' + odgovor.poruka);
-            }
-            setLoading(false);
-        }
-
         dohvatiClanove();
     }, []); 
 
-    if (loading) {
-        return <Container>Učitavanje...</Container>;
-    }
+
 
     return (
         <Container>
@@ -38,8 +35,7 @@ export default function ClanoviPregled() {
                     </tr>
                 </thead>
                 <tbody>
-                    {clanovi.length > 0 ? (
-                        clanovi.map((clan) => (
+                    {clanovi && clanovi.map((clan) => (
                             <tr key={clan.sifra}>
                                 <td>{clan.sifra}</td>
                                 <td>{clan.ime}</td>
@@ -48,12 +44,8 @@ export default function ClanoviPregled() {
                                 <td>{clan.lozinka}</td>
                                 <td>{clan.administrator ? 'Da' : 'Ne'}</td>
                             </tr>
-                        ))
-                    ) : (
-                        <tr>
-                            <td colSpan="6">Nema dostupnih članova.</td>
-                        </tr>
-                    )}
+                        ))}
+                  
                 </tbody>
             </Table>
         </Container>
