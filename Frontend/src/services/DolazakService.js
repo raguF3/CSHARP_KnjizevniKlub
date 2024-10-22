@@ -6,7 +6,7 @@ async function get() {
         return odgovor.data;
     } catch (e) {
         console.error(e);
-        return null; // Osiguraj se da vraćaš nešto u slučaju greške
+        return null; 
     }
 }
 

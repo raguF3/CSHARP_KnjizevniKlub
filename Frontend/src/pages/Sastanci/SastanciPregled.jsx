@@ -10,7 +10,7 @@ export default function SastanciPregled() {
             const odgovor = await SastanakService.getSastanci(); 
             setSastanci(odgovor);
         } catch (error) {
-            console.error("Greška prilikom dohvata sastanaka: ", error);
+            console.error("Greška prilikom dohvata sastanaka: "+ odgovor.poruka);
         }
     }
 
@@ -31,7 +31,7 @@ export default function SastanciPregled() {
                     </tr>
                 </thead>
                 <tbody>
-                    {sastanci.map((sastanak, index) => (
+                    {sastanci && sastanci.map((sastanak) => (
                         <tr key={index}>
                             <td>{sastanak.sifra}</td>
                             <td>{sastanak.knjiga}</td> 

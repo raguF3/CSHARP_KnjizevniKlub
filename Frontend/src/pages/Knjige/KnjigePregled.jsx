@@ -10,7 +10,7 @@ export default function KnjigePregled() {
         if (odgovor) {
             setKnjige(odgovor);
         } else {
-            alert('Došlo je do greške prilikom dohvata knjiga.');
+            alert('Došlo je do greške prilikom dohvata knjiga.'  + odgovor.poruka);
         }
     }
 
