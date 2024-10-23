@@ -16,7 +16,6 @@ export default function NavBarKnjizevniKlub() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link onClick={() => navigate(RoutesNames.HOME)}>Početna</Nav.Link>
-            <Nav.Link onClick={()=>navigate(RoutesNames.NADZORNA_PLOCA)}>Nadzorna ploča</Nav.Link>
             <Nav.Link href="https://raguf3-001-site1.ktempurl.com/swagger/index.html" target='_blank'>Swagger</Nav.Link>
             <NavDropdown title="Sadržaj" id="basic-nav-dropdown">
                
@@ -25,7 +24,7 @@ export default function NavBarKnjizevniKlub() {
               <NavDropdown.Item onClick={() => navigate(RoutesNames.SASTANAK_PREGLED)}>Sastanci</NavDropdown.Item>
               <NavDropdown.Item onClick={() => navigate(RoutesNames.KNJIGA_PREGLED)}>Knjige</NavDropdown.Item>
               <NavDropdown.Divider />
-              
+              <Nav.Link onClick={()=>navigate(RoutesNames.NADZORNA_PLOCA)}>Nadzorna ploča</Nav.Link>
             </NavDropdown>
           </Nav>
           <Nav>

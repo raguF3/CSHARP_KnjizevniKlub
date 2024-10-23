@@ -4,7 +4,6 @@ namespace CSHARP_KnjizevniKlub.Models
 {
     public class Clan: Entitet
     {
-       
         public string? ime { get; set; }
         public string? prezime { get; set; }
         public string? email { get; set; }

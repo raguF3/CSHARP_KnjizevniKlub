@@ -4,12 +4,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CSHARP_KnjizevniKlub.Controllers
 {
+  
+        public abstract class KnjizevniKlubController : ControllerBase
+        {
 
-    public abstract class KnjizevniKlubController(KnjizevniKlubContext context, IMapper mapper) : ControllerBase
-    {
 
+            protected readonly KnjizevniKlubContext _context;
+            protected readonly IMapper _mapper;
 
-        protected readonly KnjizevniKlubContext _context = context;
-        protected readonly IMapper _mapper = mapper;
+            public KnjizevniKlubController(KnjizevniKlubContext context, IMapper mapper)
+            {
+                _context = context;
+                _mapper = mapper;
+            }
+        }
     }
-}
