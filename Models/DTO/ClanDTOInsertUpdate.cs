@@ -9,7 +9,6 @@ namespace CSHARP_KnjizevniKlub.Models.DTO
         [Required(ErrorMessage = "Prezime je obavezno")] string prezime,
         [Required(ErrorMessage = "Email je obavezno")] string email,
         [Range(0, 50, ErrorMessage = "Vrijednost {0} mora biti između {1} i {2}")] int? lozinka,
-        bool?administrator
-
-        );
+        bool? administrator 
+    );
 }

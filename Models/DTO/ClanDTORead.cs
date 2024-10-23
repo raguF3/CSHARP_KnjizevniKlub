@@ -7,7 +7,7 @@
     string? prezime,
     string? email,
     int? lozinka,
-    bool?administrator
+    bool? administrator
 
     );
 }

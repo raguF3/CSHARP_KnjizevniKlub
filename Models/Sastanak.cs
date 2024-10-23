@@ -1,12 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using CSHARP_KnjizevniKlub.Models;
 
-namespace CSHARP_KnjizevniKlub.Models
+public class Sastanak : Entitet
 {
-    public class Sastanak: Entitet
-    {
-     
-        public int? knjiga { get; set; }
-        public string? mjesto { get; set; }
-        public DateTime? datum { get; set; }
-    }
+    public int? KnjigaSifra { get; set; } // Šifra knjige
+    public string? mjesto { get; set; }
+    public DateTime? datum { get; set; }
+
+    // Navigacijsko svojstvo
+    public virtual Knjiga Knjiga { get; set; } // Odnos prema Klasi Knjiga
+    public List<Dolazak> Dolasci { get; set; } = new List<Dolazak>();
 }

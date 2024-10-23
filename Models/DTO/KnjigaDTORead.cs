@@ -5,7 +5,7 @@
         (
        int? sifra,
        string? naziv,
-       string?autor,
-       DateTime?godina
+       string? autor,
+       DateTime? godina
         );
 }

@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CSHARP_KnjizevniKlub.Controllers
 {
-  
-        public abstract class KnjizevniKlubController : ControllerBase
+
+    public abstract class KnjizevniKlubController : ControllerBase
         {
 
 

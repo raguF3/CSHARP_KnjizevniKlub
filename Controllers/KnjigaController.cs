@@ -1,10 +1,7 @@
 ﻿using AutoMapper;
 using CSHARP_KnjizevniKlub.Data;
 using CSHARP_KnjizevniKlub.Models.DTO;
-using CSHARP_KnjizevniKlub.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using static CSHARP_KnjizevniKlub.Controllers.KnjizevniKlubController;
 
 namespace CSHARP_KnjizevniKlub.Controllers
 {

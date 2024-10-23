@@ -1,19 +1,18 @@
 ﻿using CSHARP_KnjizevniKlub.Models.DTO;
 using CSHARP_KnjizevniKlub.Models;
 using Microsoft.AspNetCore.Mvc;
-using static CSHARP_KnjizevniKlub.Controllers.KnjizevniKlubController;
-using CSHARP_KnjizevniKlub.Data;
 using AutoMapper;
+using CSHARP_KnjizevniKlub.Data;
 
 namespace CSHARP_KnjizevniKlub.Controllers
 {
-
     [ApiController]
     [Route("api/v1/[controller]")]
-
-
-    public class SastanakController(KnjizevniKlubContext context, IMapper mapper) : KnjizevniKlubController(context, mapper)
+    public class SastanakController : KnjizevniKlubController
     {
+        public SastanakController(KnjizevniKlubContext context, IMapper mapper) : base(context, mapper)
+        {
+        }
 
         [HttpGet]
         public ActionResult<List<SastanakDTORead>> Get()
@@ -24,13 +23,13 @@ namespace CSHARP_KnjizevniKlub.Controllers
             }
             try
             {
-                return Ok(_mapper.Map<List<SastanakDTORead>>(_context.Sastanci));
+                var lista = _context.Sastanci.ToList(); // Dodano ToList() da se izvrši upit
+                return Ok(_mapper.Map<List<SastanakDTORead>>(lista));
             }
             catch (Exception ex)
             {
                 return BadRequest(new { poruka = ex.Message });
             }
-
         }
 
         [HttpGet]
@@ -76,9 +75,6 @@ namespace CSHARP_KnjizevniKlub.Controllers
             {
                 return BadRequest(new { poruka = ex.Message });
             }
-
-
-
         }
 
         [HttpPut]
@@ -117,7 +113,6 @@ namespace CSHARP_KnjizevniKlub.Controllers
             {
                 return BadRequest(new { poruka = ex.Message });
             }
-
         }
 
         [HttpDelete]
@@ -155,4 +150,3 @@ namespace CSHARP_KnjizevniKlub.Controllers
         }
     }
 }
-

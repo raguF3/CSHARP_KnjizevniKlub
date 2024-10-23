@@ -1,18 +1,17 @@
 ﻿using CSHARP_KnjizevniKlub.Models.DTO;
-using CSHARP_KnjizevniKlub.Models;
 using Microsoft.AspNetCore.Mvc;
-using static CSHARP_KnjizevniKlub.Controllers.KnjizevniKlubController;
-using CSHARP_KnjizevniKlub.Data;
 using AutoMapper;
+using CSHARP_KnjizevniKlub.Data;
 
 namespace CSHARP_KnjizevniKlub.Controllers
 {
     [ApiController]
     [Route("api/v1/[controller]")]
-
-
-    public class ClanController(KnjizevniKlubContext context, IMapper mapper) : KnjizevniKlubController(context, mapper)
+    public class ClanController : KnjizevniKlubController
     {
+        public ClanController(KnjizevniKlubContext context, IMapper mapper) : base(context, mapper)
+        {
+        }
 
         [HttpGet]
         public ActionResult<List<ClanDTORead>> Get()
@@ -23,9 +22,7 @@ namespace CSHARP_KnjizevniKlub.Controllers
             }
             try
             {
-
-                var lista = _context.Clanovi;
-
+                var lista = _context.Clanovi.ToList(); // Dodano ToList() da se izvrši upit
 
                 return Ok(_mapper.Map<List<ClanDTORead>>(lista));
             }
@@ -33,7 +30,6 @@ namespace CSHARP_KnjizevniKlub.Controllers
             {
                 return BadRequest(new { poruka = ex.Message });
             }
-
         }
 
         [HttpGet]
@@ -79,9 +75,6 @@ namespace CSHARP_KnjizevniKlub.Controllers
             {
                 return BadRequest(new { poruka = ex.Message });
             }
-
-
-
         }
 
         [HttpPut]
@@ -120,7 +113,6 @@ namespace CSHARP_KnjizevniKlub.Controllers
             {
                 return BadRequest(new { poruka = ex.Message });
             }
-
         }
 
         [HttpDelete]
