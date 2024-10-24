@@ -9,6 +9,9 @@ namespace CSHARP_KnjizevniKlub.Mapping
     {
         public KnjizevniKlubMappingProfile()
         {
+            CreateMap<Sastanak, SastanakDTORead>()
+    .ForMember(dest => dest.sifra, opt => opt.MapFrom(src => src.Sifra)); // Ovdje bi Sifra trebala biti int
+
             CreateMap<Dolazak, DolazakDTORead>();
             CreateMap<DolazakDTORead, Dolazak>();
             CreateMap<DolazakDTOInsertUpdate, Dolazak>();

@@ -8,4 +8,8 @@ export const RoutesNames = {
 
 };
 
-export const BACKEND_URL = 'https://localhost:7064/api/v1'
+
+
+const isProduction = true;
+export const APP_URL = isProduction ? "https://raguf3-001-site1.ktempurl.com" : "https://localhost:7064";
+export const BACKEND_URL = APP_URL + "/api/v1";

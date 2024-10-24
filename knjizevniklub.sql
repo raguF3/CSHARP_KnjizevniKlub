@@ -26,7 +26,7 @@ create table knjige (
 sifra int not null primary key identity (1,1),
 naziv varchar (50) not null,
 autor varchar (50) not null,
-godina date,
+godina date
 
 );
 
